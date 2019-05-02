@@ -3,10 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Adam Kohler Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
     <!-- Stylesheets, inlcuding custom fonts, go here -->
-        <link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="Styles/style.css" type="text/css" media="all">
+        <link rel="jquerysheet" href="jquery.js" type="text/js" media="all">
 </head>
 
 <body>
@@ -20,23 +23,35 @@
       </div>
       <div class="headerImg">
           <img
-            srcset="HomePic_large.jpg 1920w,
-                    HomePic_medium.jpg 960w,
-                    HomePic_small.jpg 480w"
+            srcset="Pics/HomePics/HomePic_large.jpg 1920w,
+                    Pics/HomePicsHomePic_medium.jpg 960w,
+                    Pics/HomePicsHomePic_small.jpg 480w"
+               
             src="HomePic_medium.jpg" alt="Profile Picture">
-    </header><!--PageHeader-->
+        </div>
+    </header> <!--PageHeader-->
 
 
     <div class="content"> <!--Body content-->
         <h2>Some main stuff will go here</h2>
         <section class="Boxes">
         <section class="box">
-          <p>Here is a link for my school work</p>
-          <a href="schoolWork.html">See my school work</a>
+            <div class="PortfolioGallery">
+                <p>BIT 175 Portfolio Gallery Design</p>
+                <a id="tt" href="gallery.html">My Gallery</a>
+            </div>
+            </section>
+            <section class="box">
+          <div class ="schoolWork">
+            <p>Here is a link for my school work</p>
+            <a id="tt" href="schoolWork.html">See my school work</a>
+          </div>
         </section>
         <section class="box">
-          <p>Here is a link for my professional work</p>
-          <a href="">My professional work(not linked)</a>
+          <div class = "profWork">
+            <p>Here is a link for my professional work</p>
+            <a href="">My professional work(not linked)</a>
+          </div>
         </section>
         </section>
     </div> <!--Body content-->

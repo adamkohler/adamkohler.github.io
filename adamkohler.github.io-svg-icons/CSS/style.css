@@ -40,6 +40,14 @@
 .icon-tux:before {
   content: "\eabd";
 }
+/* Animation*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(359deg); }
+}
+#ball {
+    animation: spin 2s linear infinite;
+}
 
 /*CSS style guide */
 body {color: black;

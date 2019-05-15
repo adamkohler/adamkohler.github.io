@@ -30,7 +30,7 @@ h1 {
 }
 .box{
     margin: 0 0 1em;
-    width: calc(50%-.8em);
+    width: calc(50% - .8em);
 }
 
 .box {

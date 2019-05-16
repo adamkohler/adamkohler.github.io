@@ -75,14 +75,13 @@ h1 {
 .headerImg{
 }
 
-.Rotate90 {
+.rotate90 {
  -webkit-transform: rotate(90deg);
  -moz-transform: rotate(90deg);
  -o-transform: rotate(90deg);
  -ms-transform: rotate(90deg);
  transform: rotate(90deg);
 }
-
 /* Boxes */
 .Boxes{
     justify-content: space-between;

@@ -21,16 +21,24 @@ h1 {
     display: block;
     margin-bottom: 0;
     margin-top: 30%
-    
+
 }
 
 img
 {
     width: 50%;
     margin-right: 20%;
-    margin-top: 50px;  
+    margin-top: 50px;
     image-orientation: from-image;
-    float:left;    
+    float:left;
+}
+.Rotate90
+{
+  -webkit-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
 }
 .Hawaii
 {
@@ -72,7 +80,7 @@ img
         grid-template-columns: 50% 50%;
         font-size: 1.3em;
         line-height: 1.375em;
-         
+
     }
 }
 /*Desktop*/

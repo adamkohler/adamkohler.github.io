@@ -1,0 +1,81 @@
+/* Colors */
+/* Padding */
+/* Border Radius */
+/* Animation*/
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+#ball {
+  animation: spin 2s linear infinite;
+}
+
+body {
+  color: #66a3ff;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  font-size: 18px;
+}
+
+/* Boxes */
+.Boxes {
+  justify-content: space-between;
+}
+
+.box {
+  margin: 0 0 1em;
+  width: calc(30% - .8em);
+  border-radius: 50px;
+}
+
+.box {
+  border-color: #0047b3;
+  border-style: solid;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+  background: white;
+}
+
+.content {
+  font-size: 1em;
+  display: block;
+  padding: 40px;
+}
+
+/* Headers */
+header {
+  font-family: Imprint MT Shadow, Georgia, sans-serif;
+  background-color: green;
+}
+
+.homeheader {
+  background-color: green;
+  font-size: 2.2em;
+  margin: 0 auto;
+}
+
+.subtitle {
+  padding: 40px;
+}
+
+.title {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.headerImg {
+  padding: 40px;
+  border-radius: 50px;
+  /*Could not get the border radius to change on the headerImg, not sure why,
+  I got it to work for the content boxes*/
+}

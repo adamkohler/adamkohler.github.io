@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adam Kohler Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Stylesheets, inlcuding custom fonts, go here -->
+        <link rel="stylesheet" href="Styles/style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="Styles/scss_styles.css" type="text/css">
+        <link rel="jquerysheet" href="jquery.js" type="text/js" media="all">
+
+</head>
+
+<body>
+
+    <header class="homeheader"><!--PageHeader-->
+      <div class="title">
+          <h1>Adam's Programming Portfolio</h1>
+      </div>
+      <div class="subtitle">
+          <h3>A look into my web emphasis projects</h3>
+      </div>
+      <div class="headerImg">
+          <img
+            srcset="Pics/HomePics/HomePic_large.jpg 1920w,
+                    Pics/HomePics/HomePic_medium.jpg 960w,
+                    Pics/HomePics/HomePic_small.jpg 480w"
+
+            src="HomePic_medium.jpg" alt="Profile Picture">
+        </div>
+    </header> <!--PageHeader-->
+
+
+    <div class="content"> <!--Body content-->
+      <h2 class="animateout">Here is some animated text using TweenMax.to()</h2>
+      <h2 class="animatein">And then make this also vanish!!</h2>
+      <h2 class="animatefromscreen">TAAA DAAAA!</h2>
+        <h2>Some main stuff will go here<span aria-hidden="true" data-icon="\e9e9" class="icon-grin"></span></h2>
+        <section class="Boxes">
+        <section class="box">
+            <div class="PortfolioGallery">
+                <p>BIT 175 Portfolio Gallery Design</p>
+                <a id="tt" href="gallery.html">My Gallery</a>
+            </div>
+            </section>
+            <section class="box">
+          <div class ="schoolWork">
+            <p>Here is a link for my school work</p>
+            <a id="tt" href="schoolWork.html">See my school work</a>
+          </div>
+        </section>
+        <section class="box">
+          <div class = "profWork">
+            <p>Here is a link for my professional work</p>
+            <a href="">My professional work(not linked)</a>
+          </div>
+        </section>
+        </section>
+    </div> <!--Body content-->
+
+
+<div class="footer"><!--footer-->
+  <h4>footer stuff here</h4>
+<p>Some animation!!!</p>
+  <img src="baseball-svgrepo-com.svg" style="width:80px"id="ball">
+    <p>I really like the Seattle Sounders</p>
+</div>  <!--footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<script>
+TweenMax.to("h2.animateout", 3, {opacity:0, x:500});
+TweenMax.to("h2.animatein", 3, {opacity:0, x:500, y:200, delay:3});
+TweenMax.from("h2.animatefromscreen", 2, {x:-400, delay:6, ease:Bounce.easeOut});
+
+</script>
+
+</body>
+</html>

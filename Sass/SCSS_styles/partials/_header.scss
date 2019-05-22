@@ -1,0 +1,25 @@
+/* Headers */
+header {font-family:  Imprint MT Shadow, Georgia, sans-serif;
+        background-color: green;
+}
+.homeheader{background-color: green;
+            font-size: 2.2em;
+            margin: 0 auto;
+}
+.subtitle {
+  padding: $generalPadding;
+}
+.title {
+  padding: $generalPadding + 10;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.headerImg{
+  padding: $generalPadding;
+  border-radius: $default-border-radius;
+  /*Could not get the border radius to change on the headerImg, not sure why,
+  I got it to work for the content boxes*/
+}

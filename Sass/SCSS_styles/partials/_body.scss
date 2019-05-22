@@ -1,0 +1,40 @@
+/* Animation*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(359deg); }
+}
+#ball {
+    animation: spin 2s linear infinite;
+}
+
+body {color: $lightblue;
+      font-family: Arial, sans-serif;
+      font-size: 100%;
+      font-size: 18px;
+}
+
+/* Boxes */
+.Boxes{
+    justify-content: space-between;
+}
+.box{
+    margin: 0 0 1em;
+    width: calc(30% - .8em);
+    border-radius: $default-border-radius;
+}
+
+.box {
+    border-color: $darkblue;
+    border-style: solid;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+
+.content {
+    font-size: 1em;
+    display: block;
+    padding: $generalPadding;
+}

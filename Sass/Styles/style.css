@@ -1,0 +1,45 @@
+
+/* images */
+.rotate90 {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+}
+
+.headerImg {
+  @include border-radius(50px);
+}
+
+/* responsive css */
+.content {
+  font-size: 1em;
+    display: block;
+}
+/*Phone*/
+@media screen and (min-width: 35em){
+    .Boxes {
+          display: flex;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 50em) {
+    .content {
+        font-size: 1.3em;
+        line-height: 1.375em;
+    }
+    .Boxes {
+          display: flex;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 60em) {
+    .content {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+    .Boxes {
+          display: flex;
+    }
+}

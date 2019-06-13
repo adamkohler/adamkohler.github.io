@@ -7,16 +7,18 @@ body {color: black;
 /* Headers */
 header {font-family:  Imprint MT Shadow, Georgia, sans-serif;
         background-color: #37A325;
+        color:white;
 }
 
 h1 {
   font-size: 2em;
 }
-#preview
+.preview
 {
     display: none;
+    font-size: 80%;
 }
-.Hawaii:hover #preview
+.Hawaii:hover .preview
 {
     display: block;
     margin-bottom: 0;
@@ -29,6 +31,7 @@ img
     width: 50%;
     margin-right: 20%;
     margin-top: 50px;
+    margin-bottom: 20px;
     image-orientation: from-image;
     float:left;
 }

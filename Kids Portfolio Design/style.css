@@ -52,12 +52,18 @@ header {font-family:  Imprint MT Shadow, Georgia, sans-serif;
 }
 .homeheader{background-color: #99ebff;
             font-size: 2.2em;
-            margin: 0 auto;
+            margin: 20px;
+}
+.mainHeader{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 h1 {
   font-size: 2em;
 }
 
+/* Body Content */
 .apple{
   color:green;
 }
@@ -73,7 +79,15 @@ h1 {
 .unicorn{
   color:purple;
 }
-/* Body Content */
+content{
+    padding: 20px;
+    display: block;
+}
+
+/* Footer */
+.footer{
+    padding: 20px;
+}
 
 /* responsive css */
 .content {

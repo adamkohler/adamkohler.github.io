@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adam Kohler Kids play site:Vowels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Stylesheets, inlcuding custom fonts, go here -->
+        <link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <script>
+window.onload = function() {
+  $(".vowel_box").mouseover(function(){
+        TweenLite.to(".vowel_box", 1, {scale:"1.5", x:150})
+  })
+  $(".vowel_box").mouseout(function(){
+        TweenLite.to(".vowel_box", 1, {scale:"1", x:0})
+  })
+}
+
+</script>
+</head>
+
+<body>
+
+    <header class="homeheader"><!--PageHeader-->
+      <div class="mainHeader">
+          <h1>Learning Letters
+            <span aria-hidden="true" data-icon="\eabd" class="icon-tux"></span></h1>
+          <h3>Note this page made with TweenMax animations</h3>
+      </div>
+    </header> <!--PageHeader-->
+
+<content>
+    <div class="content"> <!--Body content-->
+      <h2 class="vowel_box" >The Vowels</h2>
+        <a href ="../schoolWork.html" class="home_box">Back to School Projects</a>
+
+        <p class="apple"><a href ="" class="A"> A </a> is for Apple
+        <img class="appleImg" src="apple.svg" style="width:80px"></p>
+      <p class="elephant"><a href ="" class="E"> E </a> as in Elephant
+        <img class="elephantImg" src="toy-elephant.svg" style="width:80px"></p>
+      <p class="icecream"><a href ="" class="I"> I </a> really like Ice Cream
+        <img class="iceCreamImg" src="ice-cream-alt.svg" style="width:80px"></p>
+      <p class="orange"><a href ="" class="O"> O </a> Orange starts with o
+        <img class="orangeImg" src="orange.svg" style="width:80px"></p>
+      <p class="unicorn"><a href ="" class="U"> U </a> are really lucky if you see a Unicorn
+        <img class="unicornImg" src="horse-head-1.svg" style="width:80px"></p>
+
+    </div></content> <!--Body content-->
+
+
+<div class="footer"><!--footer-->
+  <p>Hope you liked learning the vowels.</p>
+</div>  <!--footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<script>
+TweenMax.from(".appleImg", 2, {x:2500, delay:2, ease:Bounce.easeOut});
+TweenMax.from(".elephantImg", 3, {x:2500, delay:4, ease:Elastic.easeOut});
+TweenMax.from(".iceCreamImg", 2, {x:2500, delay:6, ease:SlowMo.easeOut});
+TweenMax.from(".orangeImg", 2, {x:2500, delay:8, ease:Back.easeOut});
+TweenMax.from(".unicornImg", 2, {x:2500, delay:10, ease:Elastic.easeOut});
+
+
+</script>
+
+</body>
+</html>
